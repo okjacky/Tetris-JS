@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+            *{
+                color: goldenrod;
+            }
+            h1 {
+                
+                color: #78AEFF;
+                text-align: center;
+                margin: auto;
+            }
+            #score{
+                display: inline-block;
+                color: goldenrod;
+            }
+            div{
+                font-size: 25px;
+                font-weight: bold;
+                font-family: monospace;
+                text-align: center;
+            }
+            canvas{
+                display: block;
+                margin:0 auto;
+                border: 1px solid goldenrod;
+            }
+        </style>
+    <title>Tetris JS</title>
+</head>
+<body>
+    <h1>Jeu Tetris</h1>
+    
+    <canvas id="tetris" width="200" height="400"></canvas>
+    <div >
+        Score : <div id="score">0</div>
+    </div>
+
+    <script src="pieces.js"></script>
+</body>
+</html>
