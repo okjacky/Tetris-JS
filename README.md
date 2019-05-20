@@ -1,8 +1,5 @@
 # Tetris-JS
 
-<h1>Tetris JS</h1>
-
-
 <h2>Outils de développement</h2>
 <ul>
     <li>HTML canvas</li>
